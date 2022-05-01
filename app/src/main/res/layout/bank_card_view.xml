@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/card">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+
+            android:id="@+id/img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/blue" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/title"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="14dp"
+                android:id="@+id/account_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/title"
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text=""
+                android:textSize="12dp" />
+
+            <TextView
+                android:textColor="@color/body"
+                android:fontFamily="@font/roboto"
+                android:textSize="12dp"
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <ImageView
+            android:background="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_toLeftOf="@+id/linear"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
