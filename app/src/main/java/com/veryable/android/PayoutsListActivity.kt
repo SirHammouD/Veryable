@@ -29,8 +29,6 @@ class PayoutsListActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_payouts_list)
         setContentView(binding.root)
 
-       // setContentView(R.layout.activity_payouts_list)
-
        // if(NetworkCall()) {
             doAsync {
                 val json =
