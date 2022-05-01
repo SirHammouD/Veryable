@@ -23,7 +23,7 @@ Please read the following instructions along with the Wireframe.pdf file to unde
    * implementation 'com.google.code.gson:gson:2.9.0'
    
 # Notes:
-All requiremnts have been met.
+All requiremnts have been met, tested on a Pixel 2 API 26.
 
 The project was sent as a Kotlin based app, built using XML layouts, I kept the original structure and didnt migrate it to jetpack compose as per the documentations specifications "Please use the attached base project to add your code".
 
